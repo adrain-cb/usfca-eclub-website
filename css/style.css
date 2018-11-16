@@ -13570,7 +13570,7 @@ header.is-fixed {
   transform: translateX(-100%) translateY(-50%);
   width: 24px;
   height: 2px;
-  background-color: white;
+  background-color: #323336;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -13584,7 +13584,7 @@ header.is-fixed {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: white;
+  background-color: #323336;
   right: 0;
   -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
   -moz-transition: -moz-transform .3s, top .3s, background-color 0s;
