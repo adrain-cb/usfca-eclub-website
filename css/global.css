@@ -10,3 +10,14 @@
 #mission-statement {
     padding: 0 10vw 10vh 10vw
 }
+
+#events-header {
+    background-image: url("../images/assets_in_use/main-image.png");
+    z-index: -1;
+
+}
+
+#events-header h1{
+    z-index: 1000;
+    color: whitesmoke;
+}
