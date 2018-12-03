@@ -8,7 +8,17 @@
 }
 
 #mission-statement {
-    padding: 0 10vw 10vh 10vw
+    padding: 0 10vw 10vh 10vw;
+    /* height: 60vh; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#mission-statement p {
+    font-size: 2em;
+    font-weight: 200;
+    line-height: 3.5rem;
 }
 
 #events-header {
