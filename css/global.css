@@ -24,6 +24,7 @@
 #events-header {
     background-image: url("../images/assets_in_use/main-image.png");
     z-index: -1;
+    background-size: cover;
 
 }
 
