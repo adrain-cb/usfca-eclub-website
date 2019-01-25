@@ -34,5 +34,22 @@
 }
 
 #companies {
-    margin-top: 2.5%;
+    margin-top: 10px;
+}
+
+#events-section {
+    background-color: black;
+}
+
+#home-img-cols {
+    background-color: #272b2e;
+    text-align: center;
+}
+
+#home-img-cols h1 {
+    color: whitesmoke;
+}
+
+#home-img-cols i{
+    color: #C0C0C0;
 }
