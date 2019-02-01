@@ -13,11 +13,11 @@
     <meta name="theme-color" content="#2a2b2f">
     
     <!-- FAVICONS -->
-    <link rel="shortcut icon" href="images/favicon/favicon.png">
-    <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
-    <link rel="icon" sizes="192x192" href="images/favicon/icon-192x192.png">
+    <link rel="shortcut icon" href="images/assets_in_use/new-logo.svg">
+    <link rel="apple-touch-icon" href="images/assets_in_use/new-logo.svg">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/assets_in_use/new-logo.svg">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/assets_in_use/new-logo.svg">
+    <link rel="icon" sizes="192x192" href="images/assets_in_use/new-logo.svg">
     
 <!-- CSS -->
     <!--  GOOGLE FONT -->   
@@ -105,7 +105,7 @@
                 <div class="logo-container-2 fs-logo">
                   <div class="logo-2">
                     <a href="index.html" class="clearfix">
-                      <img src="images/assets_in_use/logo.png" class="logo-img" alt="Logo">
+                      <img src="images/assets_in_use/new-logo.svg" class="logo-img" alt="Logo">
                     </a>
                   </div>
                 </div>
@@ -265,27 +265,131 @@
             </div>
           </div>
 
-
+          <!-- TODO: Change link reference on a tags to respective pages-->
+          <!-- TODO: Change Images to correspond with titles: Look at using icons on white bg instead of images -->
           <!-- Portfolio (3 Cols, fixed rects) -->
           <div class="page-section" id="home-img-cols">
               <div class="container">
                 <center><h1>What We Do</h1></center>
                 <hr />
                 <!-- 3 Columns start here -->
-                <div class="row">
+                <div class="row" id="row-of-imgs-main">
                   <div class="col-md-4">
                     <h1>Events</h1>
+                    <div class="lightbox-item circle-image">
+                        <a href='./events.html' class="lightbox ">
+                          <div class="port-img-overlay">
+                            <img class="port-main-img circle-image" src="./images/assets_in_use/events.png">
+                          </div>
+                        </a>
+                      </div>
                   </div>
                   <div class="col-md-4">
                       <h1>Podcast</h1>
+                      <div class="lightbox-item ">
+                        <a href='./podcast.html' class="lightbox">
+                          <div class="port-img-overlay">
+                            <img class="port-main-img circle-image" src="./images/assets_in_use/podcast.png">
+                          </div>
+                        </a>
+                      </div>
+                      
                   </div>
                   <div class="col-md-4">
                       <h1>Calendar</h1>
+                      <div class="lightbox-item circle-image">
+                          <a href='./calendar.html' class="lightbox">
+                            <div class="port-img-overlay">
+                              <img class="port-main-img circle-image" src="./images/assets_in_use/calendar.png">
+                            </div>
+                          </a>
+                        </div>
                   </div>
                 </div>
             </div>
           </div>
-          
+
+          <!-- TIMELINE -->
+          <!-- Title -->
+          <div class="container">
+          <center><h1>Timeline</h1></center>
+            <div class="divider divider-center">
+              <i class="fa fa-circle"></i>
+            </div>
+          </div>
+
+          <!-- Timeline section start -->
+          <section id="cd-timeline" class="cd-container mb-100">
+              
+            <div class="cd-timeline-start">
+              <div class="cd-timeline-start-caption">Entrepreneur's Club Founded</div>
+              <div class="cd-timeline-start-date">August 2015</div>
+            </div>
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <span aria-hidden="true" class="icon_house_alt"></span>
+              </div> <!-- cd-timeline-img -->
+
+              <div class="cd-timeline-content">
+                <h2>LOREM IPSUM DOLOR SIT AMET</h2>
+                <div>Iste voluptatibus minus veritatis, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut</div>
+                <span class="cd-date"><span class="cd-date-year">2011</span><span class="cd-date-month">NOV 11</span></span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <span aria-hidden="true" class="icon_cloud_alt"></span>
+              </div> <!-- cd-timeline-img -->
+
+              <div class="cd-timeline-content">
+                <h2>HIC QUASI PLACEAT IURE TEMPORA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+                <span class="cd-date"><span class="cd-date-year">2012</span><span class="cd-date-month">DEC 31</span></span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <span aria-hidden="true" class="icon_heart_alt"></span>
+              </div> <!-- cd-timeline-img -->
+
+              <div class="cd-timeline-content">
+                <h2>DOLOREM IPSAM QUAE RERUM QUIS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                <span class="cd-date"><span class="cd-date-year">2013</span><span class="cd-date-month">JUL 21</span></span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <span aria-hidden="true" class="icon_gift_alt"></span>
+              </div> <!-- cd-timeline-img -->
+
+              <div class="cd-timeline-content">
+                <h2>ISTE VOLUPTATIBUS MINUS VERITATIS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                <span class="cd-date"><span class="cd-date-year">2014</span><span class="cd-date-month">OCT 15</span></span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+              <div class="cd-timeline-img cd-picture">
+                <span aria-hidden="true" class="icon_archive_alt"></span>
+              </div> <!-- cd-timeline-img -->
+
+              <div class="cd-timeline-content">
+                <h2>CONSECTETUR ADIPISICING ELIT</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                <span class="cd-date"><span class="cd-date-year">2015</span><span class="cd-date-month">MAY 10</span></span>
+              </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-start cd-final">
+              <div class="cd-timeline-start-caption">RECENT DAY</div>
+            </div>
+          </section>
+          <!-- OLD MASONRY -->
           <!-- PORTFOLIO 3 (2 COLS, MASONRY)
           <div class="page-section" id="events-section">
             <div class="relative">
@@ -372,7 +476,7 @@
 
           <div class="page-section" id="companies">
               <div class="relative">
-                <center><h1>Companies We Have Worked With</h1></center>
+                <center><h1>Companies We Work With</h1></center>
             <!-- CLIENTS 3 -->
             <div class="page-section p-100-cont">
                 <div class="container-fluid">
