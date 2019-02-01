@@ -1,8 +1,5 @@
-# usfca-eclub-website
-
-- https://e-clubusfca.club/
 # The University of San Francisco's Entrepreneur Club Website
-
+	- https://e-clubusfca.club/
 
 ## TODO:
 - [ ] Resize home section images
