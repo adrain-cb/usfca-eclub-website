@@ -1,7 +1,8 @@
 # The University of San Francisco's Entrepreneur Club Website
-	- https://e-clubusfca.club/
+### (https://e-clubusfca.club/)
 
 ## TODO:
+- [ ] Change color of logo so its more visible on scroll down
 - [ ] Resize home section images
 - [ ] Fix hover animation on home section images
 - [ ] Place content into timeline

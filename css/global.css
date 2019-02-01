@@ -21,6 +21,11 @@
 
 .circle-image {
     border-radius: 50%;
+    
+}
+
+.cd-timeline-start {
+    min-width: 50%;
 }
 
 #main_video {
