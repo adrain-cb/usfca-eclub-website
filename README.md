@@ -1,12 +1,12 @@
 # usfca-eclub-website
 
-### Domain: <https://eclub.netlify.com/>
-
-The University of San Francisco's Entrepreneur Club Website
+- https://e-clubusfca.club/
+# The University of San Francisco's Entrepreneur Club Website
 
 
 ## TODO:
-- [ ] Resize images
+- [ ] Resize home section images
+- [ ] Fix hover animation on home section images
 - [ ] Place content into timeline
 - [ ] Get link to podcast
 - [ ] Get images for events page
