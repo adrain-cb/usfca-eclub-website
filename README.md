@@ -2,6 +2,7 @@
 ### (https://e-clubusfca.club/)
 
 ## TODO:
+- [ ] Resize logo for apple-touch-icons
 - [ ] Change color of logo so its more visible on scroll down
 - [ ] Resize home section images
 - [ ] Fix hover animation on home section images
