@@ -33,11 +33,12 @@
 }
 
 .cd-timeline-img span {
-    color: rgb(4, 95, 4);
+    color: red;
 }
 
 #timeline  {
-    background-color: rgb(116, 209, 116);
+    background-color: rgba(255, 255, 255, 0.767);
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -52,7 +53,6 @@
 
 #mission-statement {
     padding: 0 10vw 10vh 10vw;
-    /* height: 60vh; */
     margin-top: 5%;
     margin-bottom: 5%;
     
@@ -86,18 +86,17 @@
 
 #home-img-cols {
     background-color: rgb(218, 165, 32);
+    border-radius: 2%;
     text-align: center;
     color: rgb(4, 95, 4);
+    padding-bottom: 15px;
 }
 
 #home-img-cols hr{
-    /* border-top-color: rgb(4, 95, 4); */
     border-top-width: 2px;
 }
 
-#home-img-cols h1 {
-    /* color: whitesmoke; */
-}
+
 
 #home-img-cols i{
     color: #C0C0C0;
