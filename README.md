@@ -1,7 +1,8 @@
-# The University of San Francisco's Entrepreneur Club Website
+#The University of San Francisco's Entrepreneur Club Website
 ### Domain: (https://e-clubusfca.club/)
 
 ## TODO:
+- [ ] Make calendar responsive to mobile viewports
 - [ ] Consolidate timeline
 - [ ] Get link to podcast
 - [ ] Get images for events page
