@@ -1,16 +1,17 @@
 # The University of San Francisco's Entrepreneur Club Website
-### (https://e-clubusfca.club/)
+### Domain: (https://e-clubusfca.club/)
 
 ## TODO:
-- [ ] Resize logo for apple-touch-icons
-- [ ] Change color of logo so its more visible on scroll down
-- [ ] Resize home section images
-- [ ] Fix hover animation on home section images
-- [ ] Place content into timeline
+- [ ] Consolidate timeline
 - [ ] Get link to podcast
 - [ ] Get images for events page
 - [ ] Create description page for each event
+- [ ] Resize logo for apple-touch-icons
 - [x] Integrate Calendar
+- [x] Resize home section images
+- [x] Fix hover animation on home section images
+- [x] Place content into timeline
+
 
 ## Contributions are welcome
 - Contact me at acsmith11@dons.usfca.edu

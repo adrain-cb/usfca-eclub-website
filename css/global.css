@@ -19,13 +19,26 @@
     height: 80%;
 }
 
-.circle-image {
+.port-img-overlay {
     border-radius: 50%;
-    
+    margin-bottom: 20px;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
 }
+
 
 .cd-timeline-start {
     min-width: 50%;
+}
+
+.cd-timeline-img span {
+    color: rgb(4, 95, 4);
+}
+
+#timeline  {
+    background-color: rgb(116, 209, 116);
+    padding-bottom: 20px;
 }
 
 #main_video {
@@ -72,12 +85,18 @@
 }
 
 #home-img-cols {
-    background-color: #272b2e;
+    background-color: rgb(218, 165, 32);
     text-align: center;
+    color: rgb(4, 95, 4);
+}
+
+#home-img-cols hr{
+    /* border-top-color: rgb(4, 95, 4); */
+    border-top-width: 2px;
 }
 
 #home-img-cols h1 {
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 
 #home-img-cols i{
