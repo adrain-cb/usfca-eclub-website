@@ -45,11 +45,6 @@
 }
 
 
-#events-header h1{
-    z-index: 1000;
-    color: whitesmoke;
-}
-
 #companies {
     margin-top: 10px;
 }
@@ -108,8 +103,6 @@
 #home-img-cols hr{
     border-top-width: 2px;
 }
-
-
 
 #home-img-cols i{
     color: #C0C0C0;
