@@ -1,33 +1,3 @@
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    min-height: 400px;
-}
-
-.responsive-iframe-container iframe,
-.vresponsive-iframe-container object,
-.vresponsive-iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 80%;
-    height: 80%;
-}
-
-.port-img-overlay {
-    border-radius: 50%;
-    margin-bottom: 20px;
-    height: 80%;
-    width: 80%;
-    margin-left: 10%;
-}
-
-
 .cd-timeline-start {
     min-width: 50%;
 }
@@ -64,12 +34,16 @@
     line-height: 3.5rem;
 }
 
-#events-header {
+.events-header {
     background-image: url("../images/assets_in_use/main-image.png");
     z-index: -1;
     background-size: cover;
-
 }
+
+.events-header h1{
+    color: white;
+}
+
 
 #events-header h1{
     z-index: 1000;
@@ -82,6 +56,45 @@
 
 #events-section {
     background-color: black;
+}
+
+/* Makes calendar iframe responsive */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    min-height: 400px;
+}
+
+/* Makes calendar iframe responsive */
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+.port-img-overlay {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.port-img-overlay-sq {
+    opacity: .3;
+}
+
+.port-img-overlay-sq:hover {
+    opacity: 1;
 }
 
 #home-img-cols {
@@ -105,4 +118,5 @@
 #row-of-imgs-main {
     padding-bottom: 2vh;
 }
+
 

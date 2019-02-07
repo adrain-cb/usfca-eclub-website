@@ -4219,7 +4219,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
 }
 
 .port-main-img {
-  transition: all .3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+  transition: all .5s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 .lightbox-item {
   position:relative;

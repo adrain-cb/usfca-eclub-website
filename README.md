@@ -1,4 +1,4 @@
-#The University of San Francisco's Entrepreneur Club Website
+# The University of San Francisco's Entrepreneur Club Website
 ### Domain: (https://e-clubusfca.club/)
 
 ## TODO:
