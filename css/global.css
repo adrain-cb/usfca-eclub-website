@@ -6,6 +6,11 @@
     color: red;
 }
 
+.red-bold-text { 
+    color: red;
+    font-weight: 600;
+}
+
 #timeline  {
     background-color: rgba(255, 255, 255, 0.767);
     padding-top: 20px;
