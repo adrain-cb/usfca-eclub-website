@@ -99,7 +99,6 @@
 
 #home-img-cols {
     background-color: rgb(218, 165, 32);
-    border-radius: 2%;
     text-align: center;
     color: rgb(4, 95, 4);
     padding-bottom: 15px;
@@ -119,4 +118,26 @@
 
 #podcast-body {
     margin-top: -8%;
+}
+
+#mc_embed_signup{
+    position: relative;
+    top: 25%;
+    height: 50vh;
+    padding-top: 20px;
+    background: #dddddd;
+    clear:left; 
+    font:14px 'Roboto',Arial,Helvetica,sans-serif;
+    width:100%;
+}
+
+#mc_embed_signup .button {
+    background-color: #dba600!important;
+    padding-top: 4px;
+    height: 40px!important;
+}
+
+#mc_embed_signup input.email {
+    width: 40vw!important;
+    height: 40px!important;
 }
