@@ -11,6 +11,15 @@
     font-weight: 600;
 }
 
+.footer-soc-a {
+    padding-bottom: 40px;
+}
+
+#footer1 {
+    background-color: #f3f3f3;
+
+}
+
 #timeline  {
     background-color: rgba(255, 255, 255, 0.767);
     padding-top: 20px;
