@@ -18,7 +18,7 @@
 
 #footer1 {
     background-color: #f3f3f3;
-
+    height: 600px;
 }
 
 #timeline  {
@@ -150,4 +150,9 @@
 #mc_embed_signup input.email {
     width: 40vw!important;
     height: 40px!important;
+}
+
+.footer {
+    background-color: #f3f3f3;
+    height: 200px;
 }
